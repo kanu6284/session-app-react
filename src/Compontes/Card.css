@@ -1,0 +1,99 @@
+.card {
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding: 20px; /* Adding padding to the card */
+  }
+  
+  .left-side {
+    padding: 20px;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image rounded */
+    object-fit: cover; /* Ensures the image covers the entire container */
+    margin-right: 20px;
+  }
+  
+  .consultant-info {
+    flex: 1; /* Takes remaining space */
+  }
+  
+  .heading {
+    font-size: 1.5rem; /* Example font size for the heading */
+    margin-bottom: 5px; /* Adjust as needed */
+  }
+  
+  .role,
+  .qualification,
+  .experience,
+  .consultation-fee {
+    font-size: 1rem; /* Example font size for other text */
+    margin-bottom: 5px; /* Adjust as needed */
+  }
+  
+  .icon {
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  
+  .right-side {
+    padding: 20px;
+  }
+  
+  .sub-heading {
+    margin-bottom: 10px; /* Reduce margin-bottom */
+  }
+  
+  .price-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .price-item {
+    margin-bottom: 0; /* Reduce space between items */
+    text-align: center;
+    width: 30%; /* Ensure items take up equal width */
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  .right-side {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.sub-heading {
+  font-weight: bold;
+}
+
+.price-list {
+  margin-top: 20px;
+}
+
+.price-item {
+  padding: 10px 0;
+}
+
+.price-item .bold {
+  font-weight: bold;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
